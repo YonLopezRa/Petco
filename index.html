@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Generador random contraseña</title>
+</head>
+<link rel="stylesheet" src="btn.css" type="text/css">
+<script src="Pass.js"></script>
+<body>
+    <div class="inputBox">
+        <h2>Contraseña random</h2>
+
+        <h3>No. Usuario:<input id="texto" name="Usuario"/></h3>
+        <input type="text" name="" placeholder="Create Password" id="password" readonly="">
+        <div id="btn" onclick="getPassword()">Generar Contraseña</div>
+    </div>
+
+    <style>
+        .inputBox #btn{
+            position: relative;
+            color: #fff;
+            background: #333;
+            cursor: pointer;
+            border-radius: 8px;
+            display: inline-block;
+        }
+    </style>
+</body>
+</html>
